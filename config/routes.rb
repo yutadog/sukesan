@@ -58,5 +58,6 @@ Sukesan::Application.routes.draw do
   match "top", :to => "top#index"
   match "about", :to => "about#index"
   match "help", :to => "help#index"
+  match "create", :to => "create#index"
 
 end
